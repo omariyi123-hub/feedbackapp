@@ -12,7 +12,7 @@ qr.save("qr.png")
 
 st.write("Scan QR of open this link")
 st.code(app_url)
-st.image("feedback_qr.png", width=250)
+st.image("qr.png", width=250)
 if "ratings" not in st.session_state:
     st.session_state.ratings = []
 
